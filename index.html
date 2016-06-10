@@ -105,7 +105,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/产品实战/" style="font-size: 10px;">产品实战</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a>
+						<a href="/tags/产品实战/" style="font-size: 10px;">产品实战</a> <a href="/tags/原型设计/" style="font-size: 10px;">原型设计</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a>
 					</div>
 				</section>
 				
@@ -452,6 +452,99 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随记/">随记</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-axureUX" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/06/axureUX/" class="article-date">
+  	<time datetime="2016-04-05T17:46:00.000Z" itemprop="datePublished">2016-04-06</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/06/axureUX/">五分钟教你快速上手Axure交互设计</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>本教程适用于对Axure有一定了解但没有交互制作经验的新手们，不涉及动态面板。文中提到的部分概念均为个人总结而来，若有不妥之处敬请谅解。文章已发表至《人人都是产品经理》原型设计专栏，<a href="http://www.woshipm.com/rp/312487.html" target="_blank" rel="external">原文链接</a>。  </p>
+</blockquote>
+<p><img src="http://image.woshipm.com/wp-files/2016/04/jiaohusheji.jpg" alt="jiaohusheji"></p>
+<h2 id="第一分钟：理解交互样式"><a href="#第一分钟：理解交互样式" class="headerlink" title="第一分钟：理解交互样式"></a>第一分钟：理解交互样式</h2><p><strong>交互样式：</strong>在触发特定的<strong>事件</strong>时，用来控制元件部分样式的改变。在Axure 8.0中的面板如下：<br><img src="http://image.woshipm.com/wp-files/2016/04/交互样式.jpg" alt="交互样式"><br><strong>实例一：鼠标悬停时改变文字颜色和背景颜色</strong>   </p>
+<ol>
+<li>选中带文本的矩形如图，点击交互样式面板中的“鼠标悬停”，弹出“设置交互样式”对话框；<br><img src="http://image.woshipm.com/wp-files/2016/04/我的收藏3.jpg" alt="我的收藏">  </li>
+<li>选中“字体颜色”和“颜色填充”，随便选两种颜色，点击确定；<br><img src="http://image.woshipm.com/wp-files/2016/04/交互样式2.jpg" alt="交互样式">  </li>
+<li>点击预览，效果如下：<br><img src="http://image.woshipm.com/wp-files/2016/04/gif11.gif" alt="gif1"><br><strong>总结：</strong>交互样式触发的事件类型只有四个，控制的元件属性也比较少，知道它能在哪些情况下改变哪些样式就够了。</li>
+</ol>
+<h2 id="第二分钟：理解交互"><a href="#第二分钟：理解交互" class="headerlink" title="第二分钟：理解交互"></a>第二分钟：理解交互</h2><p><strong>交互：</strong>在由触发一个或多个<strong>事件</strong>而产生的某一<strong>场景</strong>内做出相应<strong>动作</strong>产生相应效果的过程。相当于广义化的交互样式，但不能代替交互样式，因为部分功能“如改变组件内文字的颜色等”只能通过交互样式来实现。在Axure 8.0中的面板如下：<br><img src="http://image.woshipm.com/wp-files/2016/04/QQ截图20160405200820.jpg" alt="交互"><br><strong>实例二：鼠标悬停时改变文字内容（该效果无法通过上述交互样式实现）</strong>   </p>
+<ol>
+<li>选中文本标签如图，双击交互面板中的“鼠标移入时”，弹出“设置交互样式”对话框；<br><img src="http://image.woshipm.com/wp-files/2016/04/触碰.jpg" alt="触碰">  </li>
+<li>依次点击“设置文本”，选择要设置文本的元件，编辑文本为“已触碰”，并点击确认，如图：<br><img src="http://image.woshipm.com/wp-files/2016/04/交互1.jpg" alt="交互">  </li>
+<li>回到工作窗口中，双击交互面板中的“鼠标移出时”，与步骤２一样依次点击“设置文本”，选择要设置文本的元件，编辑文本为“未触碰”，并点击确认；   </li>
+<li>点击预览，效果如下：   </li>
+<li><img src="http://image.woshipm.com/wp-files/2016/04/gif2.gif" alt="gif2"><br><strong>总结：</strong> 交互的触发事件和动作效果比较繁杂，其中涉及不少与变量相关的问题，这个也视项目的复杂程度而定。交互很多情况下是在控制其他元件的变化，这是与交互样式最大的不同之处。</li>
+</ol>
+<h2 id="第三分钟：掌握交互联动（1）"><a href="#第三分钟：掌握交互联动（1）" class="headerlink" title="第三分钟：掌握交互联动（1）"></a>第三分钟：掌握交互联动（1）</h2><p><strong>交互样式与交互样式联动：</strong>两个元件中，在一个元件的交互样式产生效果的同时另一个元件的交互样式也随之产生效果<br><strong>实例三：在实例１的基础上完成有断层的悬停效果</strong>   </p>
+<ol>
+<li>在实例一中的矩形上叠加一个灰色带状的矩形如图：<br><img src="http://image.woshipm.com/wp-files/2016/04/93.jpg" alt="9">  </li>
+<li>我们想要实现当鼠标悬停在大矩形的同时小矩形的填充色由灰色变成白色，这需要用到交互样式，所以我们按照实例一的方法设置好交互样式后，效果如下，可以看到当大矩形变蓝后小矩形还是灰色的：<br><img src="http://image.woshipm.com/wp-files/2016/04/gif3.gif" alt="gif3">  </li>
+<li>这时我们需要在两个矩形之间建立交互样式联动，那么我们将二者组合起来，并在组合上右键，点击“允许触发鼠标交互”；<br><img src="http://image.woshipm.com/wp-files/2016/04/组合.jpg" alt="组合">  </li>
+<li>点击预览，效果如下，可以看到二者已完美同步：<br><img src="http://image.woshipm.com/wp-files/2016/04/gif4.gif" alt="gif4"><br><strong>总结：</strong>交互样式与交互样式联动的关键只有两部：1.组合；2.允许触发鼠标交互。</li>
+</ol>
+<h2 id="第四分钟：掌握交互联动（2）"><a href="#第四分钟：掌握交互联动（2）" class="headerlink" title="第四分钟：掌握交互联动（2）"></a>第四分钟：掌握交互联动（2）</h2><p><strong>交互与交互联动：</strong>两个元件中，在一个元件的交互产生效果的同时另一个元件的交互也随之产生效果<br><strong>实例四：在实例２的基础上完成不触碰文字就可改变文字内容的效果</strong>  </p>
+<ol>
+<li>在实例二的基础上新增一个矩形如图，双击交互面板中的“鼠标移入时”，弹出“设置交互样式”对话框；<br><img src="http://image.woshipm.com/wp-files/2016/04/217.jpg" alt="2">  </li>
+<li>依次点击“触发时间”，选择案例二中的矩形，选中“鼠标移入时”，并点击确认，使当前新矩形的“鼠标移入时”动作可以触发老矩形的“鼠标移入时”动作，如图：<br><img src="http://image.woshipm.com/wp-files/2016/04/143.jpg" alt="1">  </li>
+<li>回到工作窗口中，双击交互面板中的“鼠标移出时”，与步骤２一样依次点击“触发时间”，选择案例二中的矩形，选中“鼠标移出时”，并点击确认。   </li>
+<li>点击预览，效果如下：<br><img src="http://image.woshipm.com/wp-files/2016/04/gif5.gif" alt="gif5"><br><strong>总结：</strong>交互与交互联动的关键只有一个动作：“触发事件”。</li>
+</ol>
+<h2 id="第五分钟：掌握交互联动（3）"><a href="#第五分钟：掌握交互联动（3）" class="headerlink" title="第五分钟：掌握交互联动（3）"></a>第五分钟：掌握交互联动（3）</h2><p><strong>交互与交互样式联动：</strong>两个元件中，在一个元件的交互样式产生效果的同时另一个元件的交互也随之产生效果（这种情况其实没有最优解，它相当于情景一和情景二的结合体）<br><strong>案例五：在案例四和案例五的基础上，实现当鼠标悬停于“我的收藏”矩形上时，改变背景颜色和文字颜色的同时也改变“触碰状态”矩形里的文字</strong>  </p>
+<ol>
+<li>将案例四中对绿色矩形所做的全部操作应用到“我的收藏”矩形中；   </li>
+<li>点击预览，效果如下：<br><img src="http://image.woshipm.com/wp-files/2016/04/gif6.gif" alt="gif6"><br><strong>总结：</strong>这个没什么要总结的，但是在最后要强调一点：做交互时一定要养成修改元件名称的好习惯！  </li>
+</ol>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/原型设计/">原型设计</a></li></ul>
 	</div>
 
       
