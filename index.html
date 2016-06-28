@@ -105,7 +105,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/产品实战/" style="font-size: 10px;">产品实战</a> <a href="/tags/产品理论/" style="font-size: 15px;">产品理论</a> <a href="/tags/原型设计/" style="font-size: 10px;">原型设计</a> <a href="/tags/平面设计/" style="font-size: 10px;">平面设计</a> <a href="/tags/自制视频/" style="font-size: 15px;">自制视频</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a>
+						<a href="/tags/产品实战/" style="font-size: 15px;">产品实战</a> <a href="/tags/产品理论/" style="font-size: 15px;">产品理论</a> <a href="/tags/原型设计/" style="font-size: 10px;">原型设计</a> <a href="/tags/平面设计/" style="font-size: 10px;">平面设计</a> <a href="/tags/自制视频/" style="font-size: 15px;">自制视频</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a>
 					</div>
 				</section>
 				
@@ -168,6 +168,88 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-找辅导v2.0" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/28/找辅导v2.0/" class="article-date">
+  	<time datetime="2016-06-28T04:30:25.891Z" itemprop="datePublished">2016-06-28</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/28/找辅导v2.0/">找辅导v2.0</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>对于已经做好的产品，如果从策划开始分析到运营不免显得有些臃肿，并且缺少商业思维。不同的项目之间最然输出不同，但是用到的方法都大同小异，所以我选择用产品模型去分析接下来的案例。<br>找辅导是以线下辅导机构和家长为主要用户群体的教育电商平台，所有入驻机构都通过了找辅导的资质验证，内容包括文化课，艺术培训，体育健身，益智早教以及托管等众多课程以及大量辅导机构信息，帮助家长为孩子快速而实惠地找到本地满意的培训机构。  </p>
+<ul>
+<li>使用找辅导微信公众号可直接获取身边最近的优质辅导机构</li>
+<li>并可在电脑端浏览整个西安市的辅导机构地图</li>
+<li>找辅导提供了大量免费线下课程，需要通过活动兑换的红包来购买  </li>
+</ul>
+</blockquote>
+<h2 id="商业模式"><a href="#商业模式" class="headerlink" title="商业模式"></a>商业模式</h2><p>首先，我们发现了当前家长为孩子报辅导班的行业痛点，具体表现在：选择机构费时费力、市场价格不透明、教学质量缺少反馈体系等方面； </p>
+<p>其次，2015年教育市场一度非常火爆，作为没有先天性资源优势的我们应该找准切入点，于是选择了将重点放在教育机构而不是教师，刚好应了这篇文章：<a href="http://it.sohu.com/20160309/n439892071.shtml" target="_blank" rel="external">俞敏洪看衰教育O2O的背后，是否意味真的无路可走</a>  </p>
+<p>最终，我们确定了闲置课程资源营销的商业模式：辅导机构在合作的同时拿出数个课程名额供我们免费使用，我们利用这些有限的免费名额造势营销吸引家长，最终实现上游机构与下游家长的快速对接。  </p>
+<p>早期的赢利点有佣金抽成、广告位、微信营销等。但不管以何种方式，项目决定了我们的重心必定在渠道，尤其在前期。 </p>
+<h2 id="产品架构"><a href="#产品架构" class="headerlink" title="产品架构"></a>产品架构</h2><p>因为商业模式以及营销方式的不确定性，为了快速试错尽配合渠道快速找到对的方向，于是小步快跑成了当前产品的主节奏。但毕竟是庞大的o2o电商体系，所以如何保留核心的，删除不必要的，构建一种轻量级的电商系统是主要目标。 </p>
+<p>鉴于产品的目标人群年龄偏大，使用频次不高，产品形态以PC端和微信内嵌WAP为主。 </p>
+<p><strong>找辅导v2.0展品架构如下：</strong><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146708560893.jpg" alt="">  </p>
+<p><strong>找辅导v2.0信息结构如下：</strong><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146708561171.png" alt="">  </p>
+<p>首先我要提的是首页。  </p>
+<p>目前大多数竞品的必备模块为<code>导航</code>+<code>广告轮播</code>+<code>课程推荐</code>+<code>机构推荐</code>；<br>特色模块有<code>咨询案例</code>、<code>最新评价</code>、<code>热门文章</code>、<code>帮我选课</code>以及<code>第三方IM系统</code>；  </p>
+<p>对于必备模块是所有平台都不可或缺的，暂不讨论，至于特色模块，要结合自己的实际情况取舍。  </p>
+<ul>
+<li>咨询案例：无疑给用户了一个积极的场景，在平台有较好活跃度时可以展现其公信度，有效提升游客的转化率。但对于连游客都很少的找辅导并不适用；  </li>
+<li>最新评价：同上，订单量更少得可怜；  </li>
+<li>热门文章：不受限于用户数量的同时可以丰富网站内容，提升页面访问时长，培养用户黏性，真正对用户有用的文章还可以为平台带来光环效应，值得引入。  </li>
+<li>帮我选课：与分类导航不同，它实际上是将用户的联系方式留给了平台，平台则以最短的时间内联系家长进行深度对接，这里充当一个教育咨询师的角色。受人力所限，目前我们团队没有人能胜任这项咨询工作，在还没掌握正确的商业模式下也不敢贸然聘请并组织如此项目，最后选择暂时不加。  </li>
+<li>第三方IM系统：在经历了第一版本的实践后，我们知道：已经合作的大多数机构不会时刻保持在线状态，甚至有部分传了课程后几乎从没登陆过。可能是传统行业传统思维难以改变的缘故，加之一定的学习成本，再加上前期根本看不到订单的苦恼，我决定在有一定用户基础和活跃度之后再加，毕竟它能很好地提升B端的活跃度。</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/产品实战/">产品实战</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-找辅导项目介绍视频" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -943,102 +1025,6 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随记/">随记</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-找辅导2016未来之星线上投票评选系统" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/08/找辅导2016未来之星线上投票评选系统/" class="article-date">
-  	<time datetime="2016-06-07T17:55:23.345Z" itemprop="datePublished">2016-06-08</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/08/找辅导2016未来之星线上投票评选系统/">找辅导2016未来之星线上投票评选系统</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>暑期即将到来，找辅导为了抓住培训行业的浪潮，快速吸引一批家长的关注，决定做一波推广活动。<br>投票系统除了基本的学员信息外，还绑定了学员所在的机构信息，这也是与其他机构单独做投票的最大不同，有化学反应。  </p>
-</blockquote>
-<h2 id="策划"><a href="#策划" class="headerlink" title="策划"></a>策划</h2><p><strong>目的：</strong>让更多家长了解找辅导，快速吸纳公众号粉丝，提升平台知名度  </p>
-<p><strong>难点：</strong>在起初萌生投票活动想法的时候，我们担心家长那边怎样可以快速获取到我们的活动信息，并积极地参与投票活动。分析了我们已有的资源优势后，打算将机构一同引入到活动中去，具体的思路如下图：<br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146531013092.jpg" alt="">  </p>
-<blockquote>
-<p>通过与我们已有的部分签约机构合作，让每个机构派出一定数量的学员参与活动，评选时学员会附着机构的标签，在竞争的过程中也相当于帮助机构打了次广告。优胜学员和机构会获得丰厚的奖品回报，在机构看在是一件名利双收又不花钱的大好活动！</p>
-</blockquote>
-<p><strong>奖品成本：</strong> 这次活动奖品的主要成本来自于ipad，其余都是通过与第三方旅行社达成了赞助协议换来的亲子游、体验课等服务，还有来自于我们找辅导的巨额购课卡，关于购课卡我会写在介绍目前项目状况的文章里提到。</p>
-<h2 id="调研"><a href="#调研" class="headerlink" title="调研"></a>调研</h2><p>光YY不行，我们赶紧拟了一份这次活动的期望合作机构表单，然后逐个通过电访的形式询问了机构对活动的看法，所幸，只有个别小机构因为种种原因无法参与此次活动，其他都表示了强烈的期待意愿。<br>调研完机构后，产品功能需求范围主要还是参考了其他相对成熟的投票系统，结合我们的特殊需求而定的，大体上差异不大。  </p>
-<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p><strong>产品结构：</strong><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146531582848.png" alt=""><br><strong>信息结构：</strong><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146531631005.jpg" alt=""><br><strong>用户流程</strong>和<strong>界面流程</strong>遵循最常规的投票流程这里就不提啦  </p>
-<p><strong>界面原型设计：</strong><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146531720507.png" alt=""><br>（早期设计图，部分显示与现在不一致）</p>
-<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><blockquote>
-<p>别问我为什么要加引用符 :) 因为我想强调开发时技术那两个孩子全回学校了，科技厅没有一个技术 :) 我的内心是忐忑的 :)</p>
-</blockquote>
-<p><strong>问题1：</strong>在开发时遇见过一些功能技术无法实现，比如当用户关注公众号进行第一次投票时，必须通过公众号内部访问投票链接才可以完成投票，不然判断不了该用户是否真的关注了公众号。在面对这个问题时我用第三方投票系统做了个对比测试，结果证实这是每个投票系统都有的通病，也是公众平台的约束所在。  </p>
-<p><strong>问题2：</strong>开发时也遇到了经常遇到的老号问题：开发周期与预测时间不符。原计划3天完成开发，实际却拖延了一倍的时间（包含技术因素、态度因素与学生时间不充裕等因素）。好在我们之前留足了缓冲期，因此并没有影响到活动进度。关于如何同时协调好产品与技术之间的感情与项目进度，我会在接下来的几天里抽时间分享分享我的经验。</p>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>我们没有专业的测试人员，所以在性能方面只能看看流畅度如何，界面交互没有明显的bug，产品逻辑可以完整走得通就够了。上线前在进行一遍回归测试，基本ok就一篇图文带团冲锋~</p>
-<h2 id="上线"><a href="#上线" class="headerlink" title="上线"></a>上线</h2><p><strong>上线前的准备：</strong>  </p>
-<ul>
-<li>在系统开发完毕测试临近尾声之时，市场正在如火如荼地在机构那边收集大量学生信息，平台内容的储存量也渐渐丰富了起来。    </li>
-<li>线上运营在准备公众号的图文消息预热。  </li>
-<li>对于部分家长致电询问在哪儿投票的事情我表示哭笑不得，看来机构也是心切地不怕走漏了风声。  </li>
-</ul>
-<p><strong>上线后：</strong><br>首先是遇到了部分家长无法投票的问题，这个问题可以拆分为两个：  </p>
-<ul>
-<li>家长没有从正确的入口参与投票：就像我刚开始说的，第一次投票必须从公众号内部的链接才可以访问，外部会默认未关注，这是公众平台的通病。  </li>
-<li>家长在第一次投票时提示今天已经投过3次，没有投票次数了。这个问题我们统计了下，发生的概率较小，有5%不到的家长出现了这种情况，由于技术能力问题，他们目前为止并没有找到解决方案。这更看上去像是一个概率事件，让他们难以捉摸。当然，这个问题我会让技术审视并持续跟进。  </li>
-</ul>
-<h2 id="运营"><a href="#运营" class="headerlink" title="运营"></a>运营</h2><ul>
-<li>家长反馈意见最多的是在公众号上直接回复，其次是添加我们的客服微信进行反馈。光这两样东西其实已经够忙的了，如何整理家长们的意见并反馈给技术是我在系统上线首日的主要工作。  </li>
-<li>因为投票涉及到了公众号关注状态的接口调用，并且微信对调用的次数做了严格的限制，一次性只能调用2000次（如下图），当次数饱和后投票系统将受到重要影响，除非手动进行重置。所以我要时刻坐在电脑桌前监视着这一数据，必要时重置。<br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146532002695.png" alt="">  </li>
-</ul>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
-<li>这次的投票系统算得上是小而轻的微型产品，但麻雀虽小五脏俱全，一个产品该有的方方面面他也都有涉及，所以产品本身不容小觑。  </li>
-<li>就开发速度上来说，从策划到上线，市场产品技术并行总共用了整整一周的时间，对于习惯敏捷开发的我们来说速度其实还可以再快一些。  </li>
-<li>质量这点并没有达到我预想的那样，主要问题还是出在了技术上，存在部分用户无法投票，这点我倍感遗憾。</li>
-<li>就我们想要的结果来看，我还是比较满意的，活动上线一天时间内微信涨粉将近两千，参与报名62个人，投票人次3254人，活动页面PV达到两万多！我们的主打产品可从没像他这么火过一时……<br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146535322445.png" alt=""><br><img src="http://cetuu.img48.wal8.com/img48/540664_20160322092917/146532166956.png" alt="">  </li>
-</ul>
-<p>这也许就是产品经理最幸福的一个瞬间。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/产品实战/">产品实战</a></li></ul>
 	</div>
 
       
